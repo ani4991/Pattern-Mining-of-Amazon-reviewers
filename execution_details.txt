@@ -1,0 +1,20 @@
+The project contents are in the folder containing
+
+1. main program(main.cpp)
+2. main.o(object file)
+
+I have used C++ 11 version and coded using codeblocks IDE.
+
+So, I would like to inform you that while compiling from the console , kindly follow the beow given commands:
+
+
+step -1   main.cpp Compilation-  g++.exe -O3 -std=c++11 main.cpp -o final.exe
+
+step -2   Execution -     final.exe 75 1 transactionDB.txt finalout.txt 
+
+
+where min_sup =75 and k=1  transactionDB.txt is the input filename and finalout.txt is the output filename
+  
+
+
+IMPORTANT NOTE:  KINDLY KEEP THE INPUT AND OUTPUT FILE IN THE SAME DIRECTORY FOR RUNNING OF THE PROGRAM.
