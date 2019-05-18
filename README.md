@@ -15,7 +15,7 @@ implement the Apriori Algorithms. A frequent 𝑘𝑘 itemset refer to an itemse
 
 Examples and sample Input/Output:
 
- 1. min_sup = 4, 𝑘𝑘 = 3
+ 1. min_sup = 4, 𝑘 = 3
     This would yield all itemsets appearing at least 4 times and containing at least 3 elements. Some of results of this query would
     include the following itemsets:
                                     A37787I8C184FW AWE8HU0AZKASV A3UIATN5XW74NQ (4)
