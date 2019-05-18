@@ -1,14 +1,14 @@
 # Pattern-Mining-of-Amazon-reviewers
 Implemented a pattern mining algorithm based on the Apriori Algorithm.
 
-Dataset:
+Dataset(50K records/ID's):
 
 Our transaction database is a set of reviewers from Amazon.com. Specifically, reviewer ids are our items. The transaction is a set
 of reviewer ids. Specifically, all reviewer ids which were used to post a review on that product. The format of the transaction
 database follows the standard format seen in class. Each line represents a transaction. For a given transaction, the items (reviewer
 ids) are separated by a space character.
 
-Implementation:
+Implementation(constraint: Run-Time <= 10 min):
 
 It is required to mine 𝑘 + frequent itemsets given a minimum support count (min_sup). Essentially, it is required to
 implement the Apriori Algorithms. A frequent 𝑘𝑘 itemset refer to an itemset whose size is 𝑘 (i.e., it has 𝑘 elements) and the support of that itemset (no. of times that itemset appears in the transaction database) exceeds min_sup. Frequent 𝑘 + itemsets refers to all frequent itemsets (i.e., itemsets appearing more than min_sup times in the data) which have sizes greater than 𝑘.
